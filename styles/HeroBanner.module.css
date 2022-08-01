@@ -1,0 +1,29 @@
+.heroBannerContainer {
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+
+.heroBannerContainer img {
+  object-fit: cover;
+}
+
+.heroBannerTitle {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.heroBannerTitle h1 {
+  color: whitesmoke;
+  font-size: 100px;
+  text-shadow: 2px 2px 8px black;
+}
+
+.heroBannerTitle h2 {
+  color: whitesmoke;
+  font-size: 20px;
+  font-style: italic;
+  text-shadow: 2px 2px 8px black;
+}
